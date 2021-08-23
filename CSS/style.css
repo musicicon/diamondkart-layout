@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height:76px;
+    background-color: rgb(187, 116, 175);
+    font-size: large;
+    font-family: 'Bona Nova', serif;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: wheat;
+    
+    
+}
+
+header ul li a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+header ul li{
+    
+    list-style:none;
+    padding:0px 23px;
+    display: inline-block;
+    width: 50px;
+    transform-origin: center;
+  
+
+    
+}
+header img{
+    height: 100%; /*Very important if you want to fit your image inside the confines of container */
+    width:auto;
+}
+
+footer{
+    height: 12vh;
+    color:wheat;
+    background-color: rgb(56, 44, 21);
+}
+
+.container{
+    min-height: calc(100vh - 12vh - 76px);
+    background-color: cornsilk;
+}
+.search input{
+    width:340px;
+    height:22px;
+    background-color: wheat;
+    color: brown;
+    font-family: 'Bona Nova',serif;
+    border-radius: 2px ;
+   
+    
+}
+.btn{
+    
+    height: 25px;
+    width: 50px;
+    font-family: 'Bona Nova', serif;
+    background-color: gold;
+    color: brown;
+    border-radius: 5px;
+    font-weight: bold;
+    
+
+}
+.search{
+    display: inline-block;
+}
+.motto{
+    
+    align-items: center;
+    font-family: cursive;
+    color: wheat;
+    font-family: 'Tangerine', cursive;
+    
+}
+
+.motto .para{
+    display:inline-block;
+    height:100%;
+    width:200px;
+    
+}
+.banner{
+    display: flex;
+    height:50vh;
+    justify-content: center;
+    overflow:hidden;
+   
+}
+.banner img{
+    
+    
+    margin:12px auto;
+    padding: 10px;
+   
+}
+main{
+    font-family: 'Bona Nova', serif;
+}
+.card{
+    
+    color: rgb(148, 23, 127);
+    margin: auto;
+   
+    
+}
+.card-item{
+    display: inline-block;
+    justify-content: left;
+    flex-direction: column;
+    width: 16vw;
+   
+
+}
+
+.card h1{
+    font-family: 'Tangerine', cursive;
+    padding: 4px;
+}
+
+.card-row{
+    display: flex;
+    
+    
+    
+}
+.imax{
+    position: relative;
+    width: calc(100vw/6.8);
+    flex-shrink: 0;
+}
+
+.card img:hover{
+    transform: scale(1.4);
+    transition-duration: 0.5s;
+    opacity: 70%;
+    z-index: 3;
+}
+
+.Review{
+    font-family: 'Tangerine', cursive;
+    color: rgb(148, 23, 127);
+    display: grid;
+    grid-template-columns: 30vw ;
+    grid-template-rows: auto auto auto;
+    margin-top: 25vh;
+    justify-content: center;
+    margin-bottom:60vh;
+    font-size: larger;
+}
+
+.Review div:hover{
+    transform: scale(2);
+    transition-duration: 0.5s;
+    
+    
+    color:rgb(red, green, blue);
+    
+
+
+}
+
+.Review div{
+    margin-top: 70px;
+}
